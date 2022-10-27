@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD03D9E128FFDF48000269DF /* RegistarLijekovaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D9E028FFDF48000269DF /* RegistarLijekovaApp.swift */; };
+		FD03D9E328FFDF48000269DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D9E228FFDF48000269DF /* ContentView.swift */; };
+		FD03D9E528FFDF4B000269DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD03D9E428FFDF4B000269DF /* Assets.xcassets */; };
+		FD03D9E828FFDF4B000269DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD03D9E728FFDF4B000269DF /* Preview Assets.xcassets */; };
+		FD03D9EF28FFE0A3000269DF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D9EE28FFE0A3000269DF /* HomeView.swift */; };
+		FD03D9F128FFE305000269DF /* Lijek.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D9F028FFE305000269DF /* Lijek.swift */; };
+		FD03D9F328FFE3DD000269DF /* Kategorija.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD03D9F228FFE3DD000269DF /* Kategorija.swift */; };
+		FD1A4EFC290A99DD009D1434 /* Supstanca.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1A4EFB290A99DD009D1434 /* Supstanca.swift */; };
+		FD2CB20029013723006245B1 /* 883356.png in Resources */ = {isa = PBXBuildFile; fileRef = FD2CB1FF29013723006245B1 /* 883356.png */; };
+		FD38BD7529004BE5005A4DE7 /* Registar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38BD7429004BE5005A4DE7 /* Registar.swift */; };
+		FD3C71F028FFFE7E0079DD32 /* LijekDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C71EF28FFFE7E0079DD32 /* LijekDetailView.swift */; };
+		FDDADB0E2907F6460062A6F9 /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDADB0D2907F6460062A6F9 /* CategoryListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD03D9DD28FFDF48000269DF /* RegistarLijekova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegistarLijekova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD03D9E028FFDF48000269DF /* RegistarLijekovaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistarLijekovaApp.swift; sourceTree = "<group>"; };
+		FD03D9E228FFDF48000269DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD03D9E428FFDF4B000269DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD03D9E728FFDF4B000269DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD03D9EE28FFE0A3000269DF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FD03D9F028FFE305000269DF /* Lijek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lijek.swift; sourceTree = "<group>"; };
+		FD03D9F228FFE3DD000269DF /* Kategorija.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategorija.swift; sourceTree = "<group>"; };
+		FD1A4EFB290A99DD009D1434 /* Supstanca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supstanca.swift; sourceTree = "<group>"; };
+		FD2CB1FF29013723006245B1 /* 883356.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 883356.png; sourceTree = "<group>"; };
+		FD38BD7429004BE5005A4DE7 /* Registar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registar.swift; sourceTree = "<group>"; };
+		FD3C71EF28FFFE7E0079DD32 /* LijekDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LijekDetailView.swift; sourceTree = "<group>"; };
+		FDDADB0D2907F6460062A6F9 /* CategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD03D9DA28FFDF48000269DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD03D9D428FFDF48000269DF = {
+			isa = PBXGroup;
+			children = (
+				FD03D9DF28FFDF48000269DF /* RegistarLijekova */,
+				FD03D9DE28FFDF48000269DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD03D9DE28FFDF48000269DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD03D9DD28FFDF48000269DF /* RegistarLijekova.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD03D9DF28FFDF48000269DF /* RegistarLijekova */ = {
+			isa = PBXGroup;
+			children = (
+				FD2CB1FF29013723006245B1 /* 883356.png */,
+				FD03D9E028FFDF48000269DF /* RegistarLijekovaApp.swift */,
+				FD1A4EFF290AC24F009D1434 /* Views */,
+				FD03D9F428FFE4F7000269DF /* Models */,
+				FD03D9E428FFDF4B000269DF /* Assets.xcassets */,
+				FD03D9E628FFDF4B000269DF /* Preview Content */,
+			);
+			path = RegistarLijekova;
+			sourceTree = "<group>";
+		};
+		FD03D9E628FFDF4B000269DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD03D9E728FFDF4B000269DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD03D9F428FFE4F7000269DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD03D9F028FFE305000269DF /* Lijek.swift */,
+				FD1A4EFB290A99DD009D1434 /* Supstanca.swift */,
+				FD38BD7429004BE5005A4DE7 /* Registar.swift */,
+				FD03D9F228FFE3DD000269DF /* Kategorija.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FD1A4EFF290AC24F009D1434 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD03D9EE28FFE0A3000269DF /* HomeView.swift */,
+				FD3C71EF28FFFE7E0079DD32 /* LijekDetailView.swift */,
+				FDDADB0D2907F6460062A6F9 /* CategoryListView.swift */,
+				FD03D9E228FFDF48000269DF /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD03D9DC28FFDF48000269DF /* RegistarLijekova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD03D9EB28FFDF4B000269DF /* Build configuration list for PBXNativeTarget "RegistarLijekova" */;
+			buildPhases = (
+				FD03D9D928FFDF48000269DF /* Sources */,
+				FD03D9DA28FFDF48000269DF /* Frameworks */,
+				FD03D9DB28FFDF48000269DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RegistarLijekova;
+			productName = RegistarLijekova;
+			productReference = FD03D9DD28FFDF48000269DF /* RegistarLijekova.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD03D9D528FFDF48000269DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FD03D9DC28FFDF48000269DF = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = FD03D9D828FFDF48000269DF /* Build configuration list for PBXProject "RegistarLijekova" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD03D9D428FFDF48000269DF;
+			productRefGroup = FD03D9DE28FFDF48000269DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD03D9DC28FFDF48000269DF /* RegistarLijekova */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD03D9DB28FFDF48000269DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD03D9E828FFDF4B000269DF /* Preview Assets.xcassets in Resources */,
+				FD03D9E528FFDF4B000269DF /* Assets.xcassets in Resources */,
+				FD2CB20029013723006245B1 /* 883356.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD03D9D928FFDF48000269DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD03D9F328FFE3DD000269DF /* Kategorija.swift in Sources */,
+				FD3C71F028FFFE7E0079DD32 /* LijekDetailView.swift in Sources */,
+				FD38BD7529004BE5005A4DE7 /* Registar.swift in Sources */,
+				FDDADB0E2907F6460062A6F9 /* CategoryListView.swift in Sources */,
+				FD03D9EF28FFE0A3000269DF /* HomeView.swift in Sources */,
+				FD03D9F128FFE305000269DF /* Lijek.swift in Sources */,
+				FD03D9E328FFDF48000269DF /* ContentView.swift in Sources */,
+				FD1A4EFC290A99DD009D1434 /* Supstanca.swift in Sources */,
+				FD03D9E128FFDF48000269DF /* RegistarLijekovaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FD03D9E928FFDF4B000269DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD03D9EA28FFDF4B000269DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD03D9EC28FFDF4B000269DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RegistarLijekova/Preview Content\"";
+				DEVELOPMENT_TEAM = 5YS4N553XZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learn.RegistarLijekova;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD03D9ED28FFDF4B000269DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RegistarLijekova/Preview Content\"";
+				DEVELOPMENT_TEAM = 5YS4N553XZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learn.RegistarLijekova;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD03D9D828FFDF48000269DF /* Build configuration list for PBXProject "RegistarLijekova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD03D9E928FFDF4B000269DF /* Debug */,
+				FD03D9EA28FFDF4B000269DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD03D9EB28FFDF4B000269DF /* Build configuration list for PBXNativeTarget "RegistarLijekova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD03D9EC28FFDF4B000269DF /* Debug */,
+				FD03D9ED28FFDF4B000269DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD03D9D528FFDF48000269DF /* Project object */;
+}
