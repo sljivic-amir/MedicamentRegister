@@ -87,7 +87,7 @@ struct HomeView: View {
                                                 filtriraniRegistar = novi
                                             }
                                         }
-                                        }) {
+                                    }) {
                                         Text(item)
                                             .frame(width:20)
                                             .foregroundColor(.white)
@@ -98,8 +98,9 @@ struct HomeView: View {
                                                     .stroke(Color.white, lineWidth: 2)
                                             )
                                     }
-                                        .frame(width: 35)
-                                        .background(buttonPressed ? getButtonColor(color: item) : Color(hex: "#b6cafc"))
+
+                                    .frame(width: 35)
+                                    .background(buttonPressed ? getButtonColor(color: item) : Color(hex: "#b6cafc"))
                                     .cornerRadius(16)
                                 }
                                 List(filteredMedicament){ item in
@@ -107,34 +108,42 @@ struct HomeView: View {
                                 }
                                 
                             }
-                            
                         }
                         .frame(height: 50)
-}
+                    }
                     .offset(x:72)
-            
+                    Divider()
                     //here view in order to make white bg
-
-                        List(!buttonPressed ? medicaments :  filtriraniRegistar) { item in
-                            NavigationLink(destination:LijekDetailView(item:item, lijekId:item.lijek?.id ?? 0).navigationBarTitle("Detalji Lijeka", displayMode: .inline) , label:{
-                                VStack(alignment: .leading) {
-                                    HStack{
-                                        Rectangle()
-                                            .fill(Color(hex: item.kategorija?.color ?? "#FFFFFF"))
-                                            .frame(width: 8, height:30)
-                                        VStack(alignment: .leading) {
-                                            Text(item.lijek?.name ?? "")
-                                                .font(.subheadline)
-                                                .bold()
-                                            HStack{
-                                                Text("\(item.lijek?.atc ?? "")" + "-" + "\(item.kategorija?.name ?? "")" )
-                                                    .font(.system(size: 12))
-                                            }
+                    List(!buttonPressed ? medicaments :  filtriraniRegistar) { item in
+                        NavigationLink(destination:LijekDetailView(item:item, lijekId:item.lijek?.id ?? 0).navigationBarTitle("Detalji Lijeka", displayMode: .inline) , label:{
+                            VStack(alignment: .leading) {
+                                HStack{
+                                    Rectangle()
+                                        .fill(Color(hex: item.kategorija?.color ?? "#FFFFFF"))
+                                        .frame(width: 8, height:30)
+                                    VStack(alignment: .leading) {
+                                        Text(item.lijek?.name ?? "")
+                                            .font(.subheadline)
+                                            .bold()
+                                        HStack{
+                                            Text("\(item.lijek?.atc ?? "")" + "-" + "\(item.kategorija?.name ?? "")" )
+                                                .font(.system(size: 12))
                                         }
                                     }
                                 }
-                            })
-                        }
+                            }
+                            
+                        })
+                    }
+                       
+                
+                    .frame( maxWidth: .infinity)
+                    .edgesIgnoringSafeArea(.all)
+                    // .listStyle(GroupedListStyle())
+                    .listStyle(.plain)
+                    
+
+                  //  .frame(maxWidth: , alignment: .leading)
                         
                     
 
@@ -144,6 +153,7 @@ struct HomeView: View {
                                    
                                    
         }
+            
             .task{
                     do {
                         medicamentDetails =  try await Lijek().getMedicament()

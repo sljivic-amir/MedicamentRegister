@@ -41,6 +41,7 @@ struct LijekDetailView: View {
                 
                 Divider()
                 Text("\(item.lijek?.description ?? "")").multilineTextAlignment(.leading)
+                    .padding(15)
                 Spacer()
                 
                     .task{
